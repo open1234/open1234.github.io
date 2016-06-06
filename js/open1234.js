@@ -1,10 +1,12 @@
 $(function () {
-    var $win_width = $(window).width();
-    var $img_height = $(window).height();//图片高度
-    var $img_width = $img_height / 4;//图片宽度
+    var $win_width = $(window).width();//窗口宽度
+    var $win_height = $(window).height();//窗口高度
+    var $img_width = $win_height / 4;//图片宽度
     var $img_num = $("ul.accordion li a img").size();//图片数量
 
-    setAccordionImgSize($img_width, $img_height);
+    //菜单栏设置
+    setMenuHeight($win_height - 380);
+    setAccordionImgSize($img_width, $win_height);
     $("ul.accordion").css("width", $img_num * $img_width);
 
     //窗口发生变化
@@ -34,6 +36,11 @@ $(function () {
     //    }
     //);
 });
+
+//设置菜单栏高度
+function setMenuHeight(height) {
+    $(".menu").css("height", height);
+}
 
 //设置Accordion的图片大小
 function setAccordionImgSize(width, height) {

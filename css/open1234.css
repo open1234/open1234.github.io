@@ -66,105 +66,198 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* CSS OWN START */
-header {
+* {
+    font-family: "Microsoft Yahei", cursive, sans-serif;
+}
+
+aside {
     position: fixed;
     top: 0;
     left: 0;
-    width: 400px;
+    width: 220px;
     height: 100%;
-    background-color: #333333;
-    text-align: center;
-    z-index: 9999;
+    background-color: #ffffff;
 }
 
-/*.content {*/
-    /*position: fixed;*/
-    /*top: 0;*/
-    /*left: 200px;*/
-    /*background-color: #eeeeee;*/
-    /*width: 100%;*/
-    /*height: 100%;*/
+aside > header {
+    position: relative;
+    height: 100px;
+    background-color: #433f3f;
+}
+
+aside > header > img {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+aside > header > a {
+    position: absolute;
+    width: 100px;
+    top: 42px;
+    left: 100px;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+aside > nav.menu {
+}
+
+aside > nav.menu > ul {
+}
+
+aside > nav.menu > ul > li {
+    border-bottom: 1px solid #dddddd;
+}
+
+aside > nav.menu > ul > li:last-child {
+    border-bottom: none;
+}
+
+aside > nav.menu > ul > li > a {
+    text-decoration: none;
+    color: #dddddd;
+    font-size: 14px;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 40px;
+}
+
+aside > nav.menu > ul > li > a > i {
+    position: relative;
+    left: -10px;
+}
+
+aside > footer {
+    height: 280px;
+    text-align: center;
+}
+
+aside > footer > img {
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+}
+
+aside > footer > a {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 12px;
+    width: 160px;
+    height: 20px;
+    line-height: 22px;
+    color: #dddddd;
+    padding-left: 20px;
+}
+
+aside > footer > a > i {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    color: #f9deb3;
+}
+
+/*aside > footer > img {*/
+/*position: relative;*/
+/*height: 100px;*/
+/*background-color: #433f3f;*/
 /*}*/
 
+.content {
+    position: fixed;
+    top: 0;
+    left: 220px;
+    background-color: #eeeeee;
+    width: 100%;
+    height: 100%;
+}
+
 /*ul.menu li {*/
-    /*list-style: none;*/
-    /*margin: 10px auto;*/
+/*list-style: none;*/
+/*margin: 10px auto;*/
 /*}*/
 
 /*ul.menu li a {*/
-    /*background-color: #ff6700;*/
-    /*text-decoration: none;*/
-    /*display: block;*/
-    /*height: 40px;*/
-    /*line-height: 40px;*/
-    /*color: #ffffff;*/
-    /*width: 200px;*/
-    /*font-size: 14px;*/
-    /*text-indent: 10px;*/
-    /*letter-spacing: 10px;*/
+/*background-color: #ff6700;*/
+/*text-decoration: none;*/
+/*display: block;*/
+/*height: 40px;*/
+/*line-height: 40px;*/
+/*color: #ffffff;*/
+/*width: 200px;*/
+/*font-size: 14px;*/
+/*text-indent: 10px;*/
+/*letter-spacing: 10px;*/
 /*}*/
 
 /*.logo {*/
-    /*height: 60px;*/
-    /*line-height: 60px;*/
-    /*font-size: 36px;*/
-    /*margin: 10px auto;*/
-    /*font-family: cursive;*/
-    /*font-weight: bolder;*/
-    /*text-align: center;*/
-    /*color: #ffffff;*/
+/*height: 60px;*/
+/*line-height: 60px;*/
+/*font-size: 36px;*/
+/*margin: 10px auto;*/
+/*font-family: cursive;*/
+/*font-weight: bolder;*/
+/*text-align: center;*/
+/*color: #ffffff;*/
 /*}*/
 
 /*.code {*/
-    /*width: 160px;*/
-    /*height: 160px;*/
-    /*margin: 20px auto;*/
+/*width: 160px;*/
+/*height: 160px;*/
+/*margin: 20px auto;*/
 /*}*/
 
 /*.contact li {*/
-    /*color: #ffffff;*/
-    /*margin: 5px auto;*/
-    /*height: 20px;*/
-    /*line-height: 20px;*/
+/*color: #ffffff;*/
+/*margin: 5px auto;*/
+/*height: 20px;*/
+/*line-height: 20px;*/
 /*}*/
 
 /*.contact li span {*/
-    /*position: relative;*/
-    /*display: inline-block;*/
-    /*height: 20px;*/
-    /*line-height: 22px;*/
-    /*padding-left: 20px;*/
-    /*font-size: 12px;*/
+/*position: relative;*/
+/*display: inline-block;*/
+/*height: 20px;*/
+/*line-height: 22px;*/
+/*padding-left: 20px;*/
+/*font-size: 12px;*/
 /*}*/
 
 /*.contact li span i {*/
-    /*position: absolute;*/
-    /*top: 4px;*/
-    /*left: 4px;*/
+/*position: absolute;*/
+/*top: 4px;*/
+/*left: 4px;*/
 /*}*/
 
 /*.info img {*/
-    /*width: 200px;*/
+/*width: 200px;*/
 /*}*/
 
-/*ul.accordion {*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*left: 0;*/
-    /*background-color: red;*/
-    /*overflow: scroll;*/
-    /*overflow: hidden;*/
-    /*z-index: -9999;*/
-/*}*/
+ul.accordion {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    overflow: scroll;
+    overflow: hidden;
+    z-index: -9999;
+}
 
-/*ul.accordion li {*/
-    /*float: left;*/
-/*}*/
+ul.accordion li {
+    float: left;
+}
 
-/*ul.accordion li a {*/
-    /*display: block;*/
-/*}*/
+ul.accordion li a {
+    display: block;
+}
 
-/*ul.accordion li a img {*/
-    /*display: block;*/
-/*}*/
+ul.accordion li a img {
+    display: block;
+}
