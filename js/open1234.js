@@ -11,8 +11,9 @@ $(function () {
 
     //窗口发生变化
     $(window).resize(function () {
-        var $img_height = $(window).height();
-        setAccordionImgSize($img_height / 4, $img_height);
+        var $win_height = $(window).height();
+        setMenuHeight($win_height - 380);
+        setAccordionImgSize($win_height / 4, $win_height);
     });
 
     //鼠标指针事件
