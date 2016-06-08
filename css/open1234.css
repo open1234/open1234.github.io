@@ -1,13 +1,5 @@
 @charset "UTF-8";
-
-/*!
- * open1234.css
- * Version - 1.0.0
- *
- * Copyright (c) 2016 Mr.Xu
- */
-
-/* CSS RESET START */
+/* RESET CSS */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -65,199 +57,107 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     display: block;
 }
 
-/* CSS OWN START */
+/* LAYOUT CSS */
 * {
-    font-family: "Microsoft Yahei", cursive, sans-serif;
+    font-family: 'FontAwesome', sans-serif;
 }
 
 aside {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 220px;
+    width: 140px;
     height: 100%;
-    background-color: #ffffff;
+    background-color: #ed5565;
+    z-index: 3;
 }
 
-aside > header {
-    position: relative;
-    height: 100px;
-    background-color: #433f3f;
+nav.nav-bar {
+    display: none;
+    position: fixed;
+    left: 140px;
+    width: 140px;
+    height: 100%;
+    overflow: auto;
+    color: #da4453;
+    background-color: #f0f0f0;
+    border-right: 1px solid #ed5565;
+    z-index: 2;
 }
 
-aside > header > img {
-    position: absolute;
-    top: 25px;
-    left: 30px;
-    width: 50px;
-    height: 50px;
-    border-radius: 30px;
+section.container {
+    position: fixed;
+    left: 140px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
 
-aside > header > a {
-    position: absolute;
-    width: 100px;
-    top: 42px;
-    left: 100px;
-    font-size: 16px;
-    color: #ffffff;
-    text-decoration: none;
-}
-
-aside > nav.menu {
-}
-
-aside > nav.menu > ul {
-}
-
-aside > nav.menu > ul > li {
-    border-bottom: 1px solid #dddddd;
-}
-
-aside > nav.menu > ul > li:last-child {
-    border-bottom: none;
-}
-
-aside > nav.menu > ul > li > a {
-    text-decoration: none;
-    color: #dddddd;
-    font-size: 14px;
+ul > li > a {
     display: block;
-    height: 50px;
-    line-height: 50px;
-    padding-left: 40px;
+    color: #f0f0f0;
+    text-decoration: none;
+    padding: 14px 10px;
 }
 
-aside > nav.menu > ul > li > a > i {
-    position: relative;
-    left: -10px;
+ul.menu > li > a {
+    font-size: 12px;
+    border-bottom: 1px solid #da4453;
+    background-color: #ed5565;
 }
 
-aside > footer {
-    height: 280px;
+ul.menu > li > a:hover {
+    background-color: #da4453;
+}
+
+ul.menu > li > a > i {
+    width: 36px;
     text-align: center;
 }
 
-aside > footer > img {
-    width: 200px;
-    height: 200px;
-    margin: 10px auto;
+ul.menu > li > a > span.plus {
+    float: right;
+    font-size: 14px;
+    line-height: 12px;
+    width: 14px;
+    text-align: center;
 }
 
-aside > footer > a {
+ul.sub-menu > li > a {
+    font-size: 12px;
+    background-color: #383838;
+    padding-left: 30px;
+}
+
+ul.sub-menu > li > a:hover {
+    color: #da4453;
+    background-color: #f0f0f0;
+}
+
+ul.last-menu > li > a {
+    font-size: 12px;
+    background-color: #f0f0f0;
+    color: #da4453;
+    padding-left: 30px;
+}
+
+div.image-list {
+    display: flex;
+}
+
+div.image-list > a {
     position: relative;
     display: block;
-    margin: 0 auto;
-    text-align: left;
-    font-size: 12px;
-    width: 160px;
-    height: 20px;
-    line-height: 22px;
-    color: #dddddd;
-    padding-left: 20px;
+    flex-direction: column;
 }
 
-aside > footer > a > i {
+div.image-list > a > span.image-title {
     position: absolute;
-    top: 4px;
-    left: 4px;
-    color: #f9deb3;
-}
-
-/*aside > footer > img {*/
-/*position: relative;*/
-/*height: 100px;*/
-/*background-color: #433f3f;*/
-/*}*/
-
-.content {
-    position: fixed;
-    top: 0;
-    left: 220px;
-    background-color: #eeeeee;
-    width: 100%;
-    height: 100%;
-}
-
-/*ul.menu li {*/
-/*list-style: none;*/
-/*margin: 10px auto;*/
-/*}*/
-
-/*ul.menu li a {*/
-/*background-color: #ff6700;*/
-/*text-decoration: none;*/
-/*display: block;*/
-/*height: 40px;*/
-/*line-height: 40px;*/
-/*color: #ffffff;*/
-/*width: 200px;*/
-/*font-size: 14px;*/
-/*text-indent: 10px;*/
-/*letter-spacing: 10px;*/
-/*}*/
-
-/*.logo {*/
-/*height: 60px;*/
-/*line-height: 60px;*/
-/*font-size: 36px;*/
-/*margin: 10px auto;*/
-/*font-family: cursive;*/
-/*font-weight: bolder;*/
-/*text-align: center;*/
-/*color: #ffffff;*/
-/*}*/
-
-/*.code {*/
-/*width: 160px;*/
-/*height: 160px;*/
-/*margin: 20px auto;*/
-/*}*/
-
-/*.contact li {*/
-/*color: #ffffff;*/
-/*margin: 5px auto;*/
-/*height: 20px;*/
-/*line-height: 20px;*/
-/*}*/
-
-/*.contact li span {*/
-/*position: relative;*/
-/*display: inline-block;*/
-/*height: 20px;*/
-/*line-height: 22px;*/
-/*padding-left: 20px;*/
-/*font-size: 12px;*/
-/*}*/
-
-/*.contact li span i {*/
-/*position: absolute;*/
-/*top: 4px;*/
-/*left: 4px;*/
-/*}*/
-
-/*.info img {*/
-/*width: 200px;*/
-/*}*/
-
-ul.accordion {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: red;
-    overflow: scroll;
-    overflow: hidden;
-    z-index: -9999;
-}
-
-ul.accordion li {
-    float: left;
-}
-
-ul.accordion li a {
+    top: 20px;
+    right: 20px;
     display: block;
+    font-size: 12px;
+    width: 12px;
 }
 
-ul.accordion li a img {
+div.image-list > a > img {
     display: block;
 }
