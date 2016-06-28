@@ -1,0 +1,19 @@
+[
+  {"id":1, "title":"首页", "parentId":null, "url":"http://www.baidu.com", "icon":"fa fa-home", "path":"#1"},
+  {"id":2, "title":"博客", "parentId":null, "url":null, "icon":"fa fa-laptop", "path":"#2"},
+  {"id":3, "title":"视频", "parentId":null, "url":null, "icon":"fa fa-film", "path":"#3"},
+  {"id":4, "title":"作品", "parentId":null, "url":null, "icon":"fa fa-star", "path":"#4"},
+  {"id":5, "title":"相册", "parentId":null, "url":null, "icon":"fa fa-image", "path":"#5"},
+  {"id":6, "title":"个人", "parentId":null, "url":"http://www.taobao.com", "icon":"fa fa-user", "path":"#6"},
+
+  {"id":201, "title":"Java Start", "parentId":2, "url":null, "icon":null, "path":"#2#201"},
+  {"id":202, "title":"My JavaScript", "parentId":2, "url":null, "icon":null, "path":"#2#202"},
+  {"id":203, "title":"乱七八糟", "parentId":2, "url":null, "icon":null, "path":"#2#203"},
+
+  {"id":401, "title":"JSiteX", "parentId":4, "url":null, "icon":null, "path":"#4#401"},
+  {"id":402, "title":"codeg", "parentId":4, "url":null, "icon":null, "path":"#4#402"},
+
+  {"id":201001, "title":"基础一", "parentId":201, "url":null, "icon":null, "path":"#2#201#201001"},
+  {"id":201002, "title":"基础二", "parentId":201, "url":null, "icon":null, "path":"#2#201#201002"},
+  {"id":201003, "title":"基础三", "parentId":201, "url":null, "icon":null, "path":"#2#201#201003"}
+]
