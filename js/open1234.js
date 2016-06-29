@@ -1,16 +1,20 @@
 $(function () {
+    //生成菜单
     $(".nav").xmenu();
+    //主页设置
+    load("view/home.html", setHomeImageSize);
 });
 
-function setImgSizeByWinSize() {
+/* 页面加载 */
+function load(url, fun) {
+    $("#main").load(url, fun);
+}
+
+/* 设置首页图片 */
+function setHomeImageSize() {
+    var $win_width = $(document).width();
     var $win_height = $(document).height();
-    if ($win_height < 400) {
-        $win_height = 400;
-    }
-    if ($win_height > 1080) {
-        $win_height = 1080;
-    }
-    setImgSize($("div.image-list > a > img"), $win_height / 4, $win_height);
+    setImgSize($("#main > #home"), $win_width - 140, $win_height);
 }
 
 /* 设置图片宽高 */

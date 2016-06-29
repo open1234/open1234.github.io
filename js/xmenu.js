@@ -105,14 +105,21 @@
             $(".sub-menu").each(function () {
                 var node = $(this);
                 $(this).prev("a").bind("click", function () {
-                    var displayVal = node.css("display");
-                    if (displayVal == "none") {
-                        node.show("fast");
-                        $(this).find(".plus").html("-");
-                    } else {
-                        node.hide("fast");
-                        $(this).find(".plus").html("+");
-                    }
+                    $(".sub-menu").each(function () {
+                        if ($(this).is(node)) {
+                            var displayVal = node.css("display");
+                            if (displayVal == "none") {
+                                node.show("fast");
+                                $(this).prev("a").find(".plus").html("-");
+                            } else {
+                                node.hide("fast");
+                                $(this).prev("a").find(".plus").html("+");
+                            }
+                        } else {
+                            $(this).hide("fast");
+                            $(this).prev("a").find(".plus").html("+");
+                        }
+                    });
                 });
             });
         }
