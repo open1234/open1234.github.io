@@ -66,20 +66,19 @@ aside {
     position: fixed;
     width: 140px;
     height: 100%;
-    background-color: #ed5565;
+    background-color: #607ab0;
     z-index: 3;
 }
 
 nav.nav-bar {
-    /*display: none;*/
     position: fixed;
     left: 140px;
     width: 140px;
     height: 100%;
     overflow: auto;
-    color: #da4453;
+    color: #4e669b;
     background-color: #f0f0f0;
-    border-right: 1px solid #ed5565;
+    border-right: 1px solid #607ab0;
     z-index: 2;
 }
 
@@ -100,12 +99,12 @@ ul > li > a {
 
 ul.menu > li > a {
     font-size: 12px;
-    border-bottom: 1px solid #da4453;
-    background-color: #ed5565;
+    border-bottom: 1px solid #4e669b;
+    background-color: #607ab0;
 }
 
 ul.menu > li > a:hover {
-    background-color: #da4453;
+    background-color: #4e669b;
 }
 
 ul.menu > li > a > i {
@@ -128,18 +127,18 @@ ul.sub-menu > li > a {
 }
 
 ul.sub-menu > li > a:hover {
-    color: #da4453;
+    color: #4e669b;
     background-color: #f0f0f0;
 }
 
 ul.last-menu > li > a {
     font-size: 12px;
     background-color: #f0f0f0;
-    color: #da4453;
+    color: #4e669b;
     padding-left: 30px;
 }
 
 ul.last-menu > li > a:hover {
-    background-color: #ed5565;
+    background-color: #607ab0;
     color: #f0f0f0;
 }
