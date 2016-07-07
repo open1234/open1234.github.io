@@ -22,3 +22,13 @@ function setImgSize($node, width, height) {
     $node.css("width", width);
     $node.css("height", height);
 }
+
+function setVideoPageWidth() {
+    var $win_width = $(document).width();
+    var $win_height = $(document).height();
+    $(".x-video-template").css("width", $win_width - 140);
+    $(".x-video-media").css("width", ($win_width - 140) * 0.8);
+    $(".x-video-media").css("height", $win_height * 0.8);
+    $(".x-video-media > iframe").css("width", ($win_width - 140) * 0.8);
+    $(".x-video-media > iframe").css("height", $win_height * 0.8);
+}
