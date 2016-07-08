@@ -25,10 +25,6 @@ html {
     line-height: 1;
 }
 
-ol, ul {
-    list-style: none;
-}
-
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -176,4 +172,9 @@ ul.last-menu > li > a:hover {
     color: #607ab0;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.x-blog-template {
+    height: 100%;
+    overflow: auto;
 }

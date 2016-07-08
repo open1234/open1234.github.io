@@ -32,3 +32,9 @@ function setVideoPageWidth() {
     $(".x-video-media > iframe").css("width", ($win_width - 140) * 0.8);
     $(".x-video-media > iframe").css("height", $win_height * 0.8);
 }
+
+function setBlogPageStyle() {
+    var $win_width = $(document).width();
+    var $win_height = $(document).height();
+    $(".x-blog-template").css("width", $win_width - 260);
+}
