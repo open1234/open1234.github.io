@@ -7,8 +7,7 @@
   {"id":6, "title":"个人", "parentId":null, "url":"javascript:load('view/user.html');", "icon":"fa fa-user", "path":"#6"},
 
   {"id":201, "title":"Java学习", "parentId":2, "url":null, "icon":null, "path":"#2#201"},
-  {"id":202, "title":"JavaScript学习", "parentId":2, "url":null, "icon":null, "path":"#2#202"},
-  {"id":203, "title":"工作问题", "parentId":2, "url":null, "icon":null, "path":"#2#203"},
+  {"id":202, "title":"前端开发", "parentId":2, "url":null, "icon":null, "path":"#2#202"},
   {"id":204, "title":"随手纪录", "parentId":2, "url":null, "icon":null, "path":"#2#204"},
 
   {"id":301, "title":"视频测试", "parentId":3, "url":"javascript:load('view/video/unit301.html',setVideoPageWidth);", "icon":null, "path":"#3#301"},
@@ -17,13 +16,9 @@
 
   {"id":501, "title":"生活纪录", "parentId":5, "url":"javascript:load('view/album/unit501.html');", "icon":null, "path":"#5#501"},
 
-  {"id":201001, "title":"基础内容（一）", "parentId":201, "url":"javascript:load('view/blog/java/unit201001.html',setBlogPageStyle);", "icon":null, "path":"#2#201#201001"},
-  {"id":201002, "title":"基础内容（二）", "parentId":201, "url":"javascript:load('view/blog/java/unit201002.html',setBlogPageStyle);", "icon":null, "path":"#2#201#201002"},
-  {"id":201003, "title":"基础内容（三）", "parentId":201, "url":"javascript:load('view/blog/java/unit201003.html',setBlogPageStyle);", "icon":null, "path":"#2#201#201003"},
+  {"id":201001, "title":"知识体系大纲", "parentId":201, "url":"javascript:load('view/blog/java/unit201001.html',setBlogPageStyle);", "icon":null, "path":"#2#201#201001"},
 
-  {"id":202001, "title":"基础内容（一）", "parentId":202, "url":"javascript:load('view/blog/javascript/unit202001.html',setBlogPageStyle);", "icon":null, "path":"#2#202#202001"},
-
-  {"id":203001, "title":"Log4j详解使用", "parentId":203, "url":"javascript:load('view/blog/work/unit203001.html',setBlogPageStyle);", "icon":null, "path":"#2#203#203001"},
+  {"id":202001, "title":"ES6入门笔记一", "parentId":202, "url":"javascript:load('view/blog/javascript/unit202001.html',setBlogPageStyle);", "icon":null, "path":"#2#202#202001"},
 
   {"id":204001, "title":"网站资源分享", "parentId":204, "url":"javascript:load('view/blog/other/unit204001.html',setBlogPageStyle);", "icon":null, "path":"#2#204#204001"}
 
