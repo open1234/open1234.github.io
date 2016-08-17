@@ -19,7 +19,9 @@
   {"id":201001, "title":"知识体系大纲", "parentId":201, "url":"javascript:load('view/blog/java/unit201001.html',setBlogPageStyle);", "icon":null, "path":"#2#201#201001"},
 
   {"id":202001, "title":"ES6入门笔记一", "parentId":202, "url":"javascript:load('view/blog/javascript/unit202001.html',setBlogPageStyle);", "icon":null, "path":"#2#202#202001"},
+  {"id":202002, "title":"Jade入门", "parentId":202, "url":"javascript:load('view/blog/javascript/unit202002.html',setBlogPageStyle);", "icon":null, "path":"#2#202#202002"},
 
-  {"id":204001, "title":"网站资源分享", "parentId":204, "url":"javascript:load('view/blog/other/unit204001.html',setBlogPageStyle);", "icon":null, "path":"#2#204#204001"}
+  {"id":204001, "title":"网站资源分享", "parentId":204, "url":"javascript:load('view/blog/other/unit204001.html',setBlogPageStyle);", "icon":null, "path":"#2#204#204001"},
+  {"id":204002, "title":"GitHub博客", "parentId":204, "url":"javascript:load('view/blog/other/unit204002.html',setBlogPageStyle);", "icon":null, "path":"#2#204#204002"}
 
 ]
