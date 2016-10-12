@@ -22,6 +22,7 @@
   {"id":202002, "title":"Jade入门", "parentId":202, "url":"javascript:load('view/blog/javascript/unit202002.html',setBlogPageStyle);", "icon":null, "path":"#2#202#202002"},
 
   {"id":204001, "title":"网站资源分享", "parentId":204, "url":"javascript:load('view/blog/other/unit204001.html',setBlogPageStyle);", "icon":null, "path":"#2#204#204001"},
-  {"id":204002, "title":"GitHub博客", "parentId":204, "url":"javascript:load('view/blog/other/unit204002.html',setBlogPageStyle);", "icon":null, "path":"#2#204#204002"}
+  {"id":204002, "title":"GitHub博客", "parentId":204, "url":"javascript:load('view/blog/other/unit204002.html',setBlogPageStyle);", "icon":null, "path":"#2#204#204002"},
+  {"id":204003, "title":"Markdown入门", "parentId":204, "url":"javascript:load('view/blog/other/unit204003.html',setBlogPageStyle);", "icon":null, "path":"#2#204#204003"}
 
 ]
