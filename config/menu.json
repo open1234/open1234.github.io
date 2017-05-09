@@ -20,6 +20,7 @@
 
   {"id":202001, "title":"ES6入门笔记一", "parentId":202, "url":"javascript:load('view/blog/javascript/unit202001.html',setBlogPageStyle);", "icon":null, "path":"#2#202#202001"},
   {"id":202002, "title":"Jade入门", "parentId":202, "url":"javascript:load('view/blog/javascript/unit202002.html',setBlogPageStyle);", "icon":null, "path":"#2#202#202002"},
+  {"id":202003, "title":"npm常用命令", "parentId":202, "url":"javascript:load('view/blog/javascript/unit202003.html',setBlogPageStyle);", "icon":null, "path":"#2#202#202003"},
 
   {"id":204001, "title":"网站资源分享", "parentId":204, "url":"javascript:load('view/blog/other/unit204001.html',setBlogPageStyle);", "icon":null, "path":"#2#204#204001"},
   {"id":204002, "title":"GitHub博客", "parentId":204, "url":"javascript:load('view/blog/other/unit204002.html',setBlogPageStyle);", "icon":null, "path":"#2#204#204002"},
